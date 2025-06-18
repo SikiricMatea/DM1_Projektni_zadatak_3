@@ -1,0 +1,242 @@
+@charset "UTF-8";
+/* CSS document */
+.pozadina {
+  background-image: url("slike/pozadina.jpeg");
+}
+@font-face {
+  font-family: 'MateaSikiric';
+  src: url('MateaSikiric.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  text-align: center;
+  font-family: MateaSikiric;
+  font-size: 60px;
+  color: #3b2f2f;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  margin-top: 40px;
+}
+h2 {
+  text-align: center;
+  font-size: 38px;
+  color: #5c4738;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+  margin-top: 5px;
+}
+p {
+  text-align: center;
+  font-size: 32px
+  color: #2a2a2a;
+  line-height: 1.6;
+  max-width: 800px
+  margin: 30px auto;
+  text-shadow: 0.5px 0.5px 1px rgba(255, 255, 255, 0.2);
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 30;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #3a2c22;
+  font-weight: bold;
+  font-size: 23px;
+  transition: color 0.3s;
+}
+nav ul li a:hover {
+  color: #7a5e45;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin:100;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #3a2c22;
+  padding: 5px 10px;
+  transition: border 0.3s ease;
+  border: 2px solid transparent;
+  border-radius: 4px;
+}
+
+nav ul li a:hover {
+  border-color: #7a5e45;
+}
+.back-link {
+  display: block;
+  text-align: center;
+  margin-top: 60px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 10;
+  position: relative;
+  font-size: 17px;
+  color: #5a3e36;
+  text-decoration: none;
+  border-bottom: 1px dashed #5a3e36;
+  transition: 0.3s;
+}
+.back-link:hover {
+  color: #2e2117;
+  border-bottom: 1px solid #2e2117;
+}
+.odabir {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.blok {
+  background-color: #d7c4a3;
+  padding: 40px 60px;
+  text-align: center;
+  color: #2e2117;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 12px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.blok:hover {
+  background-color: #bfa37e;
+  transform: scale(1.05);
+}
+.druga_pozadina {
+  background-color: #d7c4a3;
+  padding: 20px;
+  margin-top: 2900px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+.druga_pozadina1 {
+  background-color: #d7c4a3;
+  padding: 20px;
+  margin-top: 410px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+.slika {
+  max-width: 800px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+h3{
+  text-align: center;
+  font-size: 20px;
+  color: #5c4738;
+}
+.tekst {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  text-align: center;
+}
+.back {
+  display: block;
+  text-align: left;
+  margin-top: 60px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 10;
+  position: absolute;
+  font-size: 17px;
+  color: #5a3e36;
+  text-decoration: none;
+  border-bottom: 1px dashed #5a3e36;
+  transition: 0.3s;
+  bottom: 40px;
+  left: 400px;
+}
+.back:hover {
+  color: #2e2117;
+  border-bottom: 1px solid #2e2117;
+}
+.link {
+  display: block;
+  text-align: right;
+  margin-top: 60px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 10;
+  position: absolute;
+  font-size: 17px;
+  color: #5a3e36;
+  text-decoration: none;
+  border-bottom: 1px dashed #5a3e36;
+  transition: 0.3s;
+  bottom: 40px;
+  right: : 40px;
+  margin-right: -600px
+}
+.link:hover {
+  color: #2e2117;
+  border-bottom: 1px solid #2e2117;
+}
+b{
+  color: #4B5320
+}
+em{
+  color: #800000
+}
+.paragraf{
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.06);
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+.druga_pozadina2{
+  background-color: #d7c4a3;
+  padding: 20px;
+  margin-top: 5px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+.slike {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.slike img {
+  width: 250px;
+ height: auto;
+ display: block;
+ object-fit: cover;
+ border-radius: 6px;
+}
+.druga_pozadina3 {
+  background-color: #d7c4a3;
+  padding: 20px;
+  margin-top: 5px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
